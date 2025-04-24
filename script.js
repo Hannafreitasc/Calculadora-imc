@@ -26,13 +26,13 @@ function calcular(){
     var mensagem = ""
     
     if(imc < 18.5){
-        mensagem = "você está abaixo do peso"
+        mensagem = "você está abaixo do peso";
     }
-     if (imc >= 18.5 && imc < 24,9){
-        mensagem = "você está no peso normal"
+    if (imc >= 18.5 && imc < 24.9){
+        mensagem = "você está no peso normal";
     }
-    if (imc>= 25 && imc < 29,9){
-        mensagem = "você está sobrepeso"
+    if (imc >= 25 && imc < 29.9){
+        mensagem = "você está sobrepeso";
     }
 
    //rendenizar o resultado na div fim
